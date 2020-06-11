@@ -15,4 +15,4 @@ print({nii_T1 = readNIfTI(fname=outfname)})
 #Getting the dim of the NIfTY file
 d = dim(nii_T1)
 # Visualization of the NIfTI Image (Slice 7)
-image(1:d[1], 1:d[2], nii_T1[,,7],xlab="",ylab="")
+image(1:d[1], 1:d[2], nii_T1[,,2],xlab="",ylab="")

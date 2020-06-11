@@ -11,5 +11,10 @@ nii_T1_mask <- nii_T1
 nii_T1_mask[!is_btw_300_400] = NA
 
 #Overlaying the mask on the Image
+<<<<<<< HEAD
 #Noverlay(nii_T1,nii_T1_mask, z=17, plot.type="single")
 orthographic(nii_T1,nii_T1_mask, xyz=c(200,220,17),text="White matter mask overlay in 3 plans",text.cex=1.2)
+=======
+#overlay(nii_T1,nii_T1_mask, z=7, plot.type="single")
+orthographic(nii_T1,nii_T1_mask, xyz=c(200,220,17),text="White matter mask overlay in 3 plans",text.cex=1.2)
+>>>>>>> 96fe70aeeed373c0c5f569fea53ac4990011f02f
